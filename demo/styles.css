@@ -1,0 +1,67 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+  font-family: Georgia, serif;
+}
+
+p {
+    color: gray;
+    margin: 0;
+}
+
+
+.medium {
+    max-width: 800px;
+    margin: 80px auto;
+}
+
+.medium-header {
+    margin-bottom: 30px
+}
+
+.medium-header-title {
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+
+.medium-cta,
+.medium-content {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 45%;
+}
+
+.medium-content-title{
+    color: black;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.medium-content-text-important{
+   background: lightgreen; 
+}
+
+.medium-cta-button {
+    background: green;
+    color:white;
+    padding: 8px 15px;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+}
+
+.medium::after {
+    content: '';
+    width: 40%;
+    height: 2px;
+    background: lightgrey;
+    margin: 50px auto;
+    display: block;
+}
