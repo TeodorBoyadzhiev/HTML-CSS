@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    display:flex;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    padding: 120px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header,
+main,
+aside,
+footer {
+    flex: 1 1 auto;
+    background-color: white;
+    box-shadow: 1px 1px 11px -2px black;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+header {
+    padding: 10px 10px 50px 10px;
+    flex-basis: 100%;
+}
+
+header,
+footer{
+    margin: 20px 0;
+}
+
+main,
+aside{
+    margin: 20px 0;
+    padding: 10px 10px 250px 10px;
+}
+
+main {
+    margin-right: 20px;
+    flex-grow: 3;
+}
+
+aside {
+    flex-grow: 1;
+}
+
+footer {
+    padding: 10px 10px 50px 10px;
+    flex-basis: 100%;
+}
+
