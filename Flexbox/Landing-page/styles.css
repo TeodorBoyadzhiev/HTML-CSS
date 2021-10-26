@@ -59,6 +59,7 @@ h4 {
   justify-content: center;
   position: relative;
   max-height: 320px;
+  margin-bottom: 300px;
 }
 
 .programs::before {
@@ -177,3 +178,35 @@ h4 {
   position: absolute;
   right: -10px;
 }
+
+.onsite-online {
+  color: #54536f;
+}
+
+.onsite-online-title {
+  font-weight: 400;
+}
+
+.onsite-online-benefit:nth-child(odd) {
+  background: #E6E6E6;
+}
+
+.onsite-online-benefit:nth-child(even) {
+  background: #f8f8f8;
+}
+
+.onsite-online-benefit {
+  display: flex;
+  padding: 12px;
+  align-items: center;
+}
+
+.onsite-online-benefits {
+  justify-content: space-between;
+}
+
+
+.onsite-online-benefits-text{
+ flex-basis: 60%;
+}
+
