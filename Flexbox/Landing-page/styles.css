@@ -179,7 +179,8 @@ h4 {
   right: -10px;
 }
 
-.onsite-online {
+.onsite-live-online {
+  padding: 0 100px ;
   color: #54536f;
 }
 
@@ -216,3 +217,40 @@ h4 {
 }
 
 
+.onsite-online-benefit:nth-child(1) {
+  border-top-left-radius: 8px;
+}
+
+.onsite-online-benefit:nth-child(1) {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.bank-content {
+  flex-basis: 65%;
+}
+
+
+.bank {
+  margin-top: 75px;
+  color: #54536f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bank p {
+  text-indent: 30px;
+}
+
+footer {
+  margin-top: 80px;
+  background: #54536f;
+  padding: 30px;
+}
+
+
+footer p {
+  text-align: center;
+  color: white;
+}
