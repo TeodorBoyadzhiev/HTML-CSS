@@ -199,14 +199,20 @@ h4 {
   display: flex;
   padding: 12px;
   align-items: center;
-}
-
-.onsite-online-benefits {
   justify-content: space-between;
 }
 
-
-.onsite-online-benefits-text{
- flex-basis: 60%;
+.onsite-online-benefits-text {
+  flex-grow: 3;
+  flex-basis: 60%;
 }
+
+.onsite-online-benefits-icon {
+  flex-grow: 1;
+}
+
+.onsite-online-benefits {
+  margin-top: 60px;
+}
+
 
