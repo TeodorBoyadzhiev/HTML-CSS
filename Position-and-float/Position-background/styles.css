@@ -38,4 +38,22 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  border-radius: 5px;
+  box-shadow: 0px 0px 19px 4px black;
 }
+
+i {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.viewport:nth-child(1) i {
+  transform: translate(-240px,-150px);
+}
+
+.viewport:nth-child(2) i {
+  transform: translate(-296px,172px);
+}
+
