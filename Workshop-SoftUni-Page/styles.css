@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  background: cornsilk;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Monserrat", sans-serif;
+}
+
+header {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-menu {
+  display: flex;
+}
+
+.nav-menu li {
+  text-decoration: none;
+  list-style: none;
+  margin: 0 5px;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+}
