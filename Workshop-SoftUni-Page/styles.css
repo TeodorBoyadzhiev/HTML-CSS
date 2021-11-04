@@ -1,7 +1,6 @@
 body {
   margin: 0;
   background: oldlace;
-  width: 1400px;
 }
 
 *,
@@ -22,8 +21,6 @@ h6 {
 header {
   background: white;
   width: 100%;
-  position: relative;
-  z-index: 1;
 }
 
 .nav {
@@ -68,7 +65,6 @@ header {
 }
 
 main {
-  padding: 40px 60px 0 60px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -80,6 +76,13 @@ main {
 
 .diploma {
   display: flex;
+  padding: 20px 60px 0 60px;
+  align-items: center;
+  overflow: hidden;
+}
+
+.diploma-img {
+  position: relative;
 }
 
 .diploma-img::before {
@@ -88,10 +91,10 @@ main {
   background: rgb(122, 113, 113);
   position: absolute;
   z-index: 0;
-  width: 38%;
-  height: 70%;
-  top: -103px;
-  right: -69px;
+  width: 495px;
+  height: 417px;
+  top: -200px;
+  right: -76px;
 }
 
 .diploma-img img {
@@ -100,4 +103,21 @@ main {
   padding-left: 60px;
 }
 
+.sertificate {
+  padding: 80px 60px;
+  color: white;
+  background: rgb(29, 29, 104);
+  display: flex;
+  align-items: center;
+  position: relative;
+}
 
+.sertificate-content {
+  width: 65%;
+}
+
+.sertificate-img {
+  position: absolute;
+  right: 100px;
+  top: 70px;
+}
