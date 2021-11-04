@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  background: cornsilk;
+  background: oldlace;
+  width: 1400px;
 }
 
 *,
@@ -19,18 +20,20 @@ h6 {
 }
 
 header {
-  background: white;  
+  background: white;
   width: 100%;
+  position: relative;
+  z-index: 1;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
   box-shadow: 1px 1px 9px -5px black;
-  padding: 0 70px;
+  padding: 0 60px;
 }
 
-.nav-logo{
+.nav-logo {
   display: flex;
   align-items: center;
 }
@@ -63,3 +66,38 @@ header {
   border-radius: 30px;
   font-weight: bold;
 }
+
+main {
+  padding: 40px 60px 0 60px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.important-info {
+  color: gray;
+  padding-top: 15px;
+}
+
+.diploma {
+  display: flex;
+}
+
+.diploma-img::before {
+  content: "";
+  border-radius: 100%;
+  background: rgb(122, 113, 113);
+  position: absolute;
+  z-index: 0;
+  width: 38%;
+  height: 70%;
+  top: -103px;
+  right: -69px;
+}
+
+.diploma-img img {
+  position: relative;
+  z-index: 1;
+  padding-left: 60px;
+}
+
+
