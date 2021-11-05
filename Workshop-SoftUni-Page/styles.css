@@ -1,6 +1,8 @@
 body {
-  margin: 0;
+  margin: 0 auto;
   background: oldlace;
+  width: 1349px;
+  font-family: Helvetica,sans-serif;
 }
 
 *,
@@ -147,5 +149,34 @@ main {
   border-radius: 20px;
   padding: 8px 21px;
   color: blueviolet;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  background: rgb(69, 50, 82);
+  padding: 40px 60px;
+  justify-content: space-between;
+}
+
+.footer-title {
+  color: blueviolet;
+  margin: 20px 0px;
+}
+
+.footer-items {
+  margin: 0px;
+  padding: 0px;
+  line-height: 1.7;
+}
+
+.footer-items li {
+  list-style: none;
+  margin: 5px 0;
+}
+
+.footer-items li a {
+  text-decoration: none;
+  color: white;
   font-weight: bold;
 }
