@@ -1,8 +1,10 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
 body {
   margin: 0 auto;
   background: oldlace;
   width: 1349px;
-  font-family: Helvetica,sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
 *,
@@ -139,7 +141,7 @@ main {
   font-weight: normal;
 }
 
-.career-subcontent{
+.career-subcontent {
   margin: 35px 0px;
 }
 
@@ -160,8 +162,8 @@ footer {
 }
 
 .footer-title {
-  color: blueviolet;
-  margin: 20px 0px;
+  color: rgb(151, 62, 235);
+  margin: 0px 0px 15px 0px;
 }
 
 .footer-items {
@@ -180,3 +182,22 @@ footer {
   color: white;
   font-weight: bold;
 }
+
+.footer-brands {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-brands i {
+  color: white;
+  padding: 5px;
+  margin-bottom: 15px;
+  font-size: xx-large;
+}
+
+.footer-copyright {
+  color: white;
+  font-weight: bold;
+}
+
+
