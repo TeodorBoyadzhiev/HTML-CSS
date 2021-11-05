@@ -121,3 +121,31 @@ main {
   right: 100px;
   top: 70px;
 }
+
+.career {
+  display: flex;
+  padding: 50px 60px;
+}
+
+.career-content {
+  margin-left: 65px;
+}
+
+.career-title {
+  margin: 10px 0px;
+  color: gray;
+  font-weight: normal;
+}
+
+.career-subcontent{
+  margin: 35px 0px;
+}
+
+.career-btn {
+  background: white;
+  border: 1.5px solid blueviolet;
+  border-radius: 20px;
+  padding: 8px 21px;
+  color: blueviolet;
+  font-weight: bold;
+}
