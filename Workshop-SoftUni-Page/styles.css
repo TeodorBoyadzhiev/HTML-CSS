@@ -91,6 +91,7 @@ header {
   .nav-menu {
     flex-direction: column;
     line-height: 1.5;
+    padding: 0px;
   }
 
   .nav-menu li {
@@ -230,4 +231,26 @@ footer {
   font-weight: bold;
 }
 
+@media all and (max-width: 1078px) {
+  .diploma {
+    flex-direction: column;
+  }
 
+  .diploma-img::before {
+    display: none;
+  }
+
+  .diploma-img img {
+    padding: 0px;
+  }
+}
+
+@media all and (max-width:410px) {
+  .diploma-title {
+    text-align: center;
+  }
+
+  .diploma-content p {
+    text-align: center;
+  }
+}
