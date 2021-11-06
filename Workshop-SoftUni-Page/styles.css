@@ -138,6 +138,30 @@ main {
   padding-left: 60px;
 }
 
+@media all and (max-width: 1168px) {
+  .diploma {
+    flex-direction: column;
+  }
+
+  .diploma-img::before {
+    display: none;
+  }
+
+  .diploma-img img {
+    padding: 0px;
+  }
+}
+
+@media all and (max-width:410px) {
+  .diploma-title {
+    text-align: center;
+  }
+
+  .diploma-content p {
+    text-align: center;
+  }
+}
+
 .sertificate {
   padding: 80px 60px;
   color: white;
@@ -231,26 +255,24 @@ footer {
   font-weight: bold;
 }
 
-@media all and (max-width: 1078px) {
-  .diploma {
+@media all and (max-width: 1168px) {
+  .sertificate {
     flex-direction: column;
+    padding: 20px 0px 5px 0px;
   }
 
-  .diploma-img::before {
-    display: none;
-  }
-
-  .diploma-img img {
-    padding: 0px;
+  .sertificate-img {
+    position: static;
+    margin-top: 30px;
   }
 }
 
-@media all and (max-width:410px) {
-  .diploma-title {
+@media all and (max-width:420px) {
+  .sertificate-title {
     text-align: center;
   }
 
-  .diploma-content p {
+  .sertificate-content p {
     text-align: center;
   }
 }
