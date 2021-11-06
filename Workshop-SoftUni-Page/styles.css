@@ -235,6 +235,36 @@ main {
   font-weight: bold;
 }
 
+@media all and (max-width: 1168px) {
+  .career {
+    flex-direction: column;
+    padding: 20px 60px 10px 60px;
+  }
+
+  .career-img {
+    position: static;
+    align-self: center;
+    margin-top: 30px;
+  }
+
+  .career-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .career-title {
+    text-align: center;
+  }
+
+  .career-content p {
+    text-align: center;
+  }
+}
+
 footer {
   display: flex;
   background: rgb(69, 50, 82);
@@ -281,32 +311,35 @@ footer {
   font-weight: bold;
 }
 
-@media all and (max-width: 1168px) {
-  .career {
+@media all and (max-width: 830px) {
+  footer {
+    display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 20px 60px 10px 60px;
   }
 
-  .career-img {
+  footer article:nth-child(1) {
+    margin-right: 44px;
+  }
+
+  .footer-img {
     position: static;
     align-self: center;
     margin-top: 30px;
   }
 
-  .career-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0px;
-  }
-}
-
-@media all and (max-width: 500px) {
-  .career-title {
-    text-align: center;
+  .footer-title {
+    margin-top: 20px;
   }
 
-  .career-content p {
-    text-align: center;
+  .footer-brands {
+    margin-top: 20px;
   }
+
+  footer article:nth-last-child(1) {
+    margin-right: 20px;
+  }
+
+  
 }
